@@ -29,3 +29,8 @@ function add3guest() {
     let currentScore = parseInt(guestScore.textContent, 10);
     guestScore.textContent = currentScore + 3
 }
+
+function newGame() {
+  homeScore.textContent = 0
+  guestScore.textContent = 0
+}
